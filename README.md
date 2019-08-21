@@ -1,3 +1,35 @@
-# Front End Components
+# front-end-components
 
-A central repository of shared components used in multiple applications across IAM and IT. This will house the shared components, how to use them, and what they will look like when used.
+## Project setup
+
+```
+npm install
+```
+
+### Compiles and hot-reloads for development
+
+```
+npm run serve
+```
+
+### Compiles and minifies for production
+
+```
+npm run build
+```
+
+### Run your tests
+
+```
+npm run test
+```
+
+### Lints and fixes files
+
+```
+npm run lint
+```
+
+### Customize configuration
+
+See [Configuration Reference](https://cli.vuejs.org/config/).
