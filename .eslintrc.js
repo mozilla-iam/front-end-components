@@ -17,4 +17,15 @@ module.exports = {
   },
 
   extends: ['plugin:vue/essential', '@vue/prettier', '@vue/typescript'],
+
+  overrides: [
+    {
+      files: [
+        '**/__tests__/*.{j,t}s?(x)'
+      ],
+      env: {
+        jest: true
+      }
+    }
+  ]
 };
