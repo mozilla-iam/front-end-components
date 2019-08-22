@@ -1,11 +1,6 @@
-export default {
-  name: "search-bar",
-  components: {},
-  props: [],
-  data() {
-    return {};
-  },
-  computed: {},
-  mounted() {},
-  methods: {}
-};
+import { Component, Prop, Vue } from "vue-property-decorator";
+
+@Component
+export default class SearchBar extends Vue {
+  @Prop() private msg!: string;
+}
