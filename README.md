@@ -1,5 +1,7 @@
 # front-end-components
 
+A central repository of shared components across the IAM scope.
+
 ## Project setup
 
 ```
